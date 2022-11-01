@@ -1,5 +1,5 @@
-import * as express from "express";
-import { NumberGen } from "../../numberGen/app/numberGen";
+import express from 'express';
+import { NumberGen } from "@myorg/numbergen"
 const app = express();
 const port = 8080; // default port to listen
 const number = new NumberGen();

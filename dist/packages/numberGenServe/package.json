@@ -1,0 +1,13 @@
+{
+  "name": "@myorg/numbergenserve",
+  "version": "0.2.6",
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "dependencies": {},
+  "peerDependencies": {
+    "express": "4.18.2",
+    "@myorg/numbergen": "0.2.1",
+    "tslib": "2.4.1"
+  }
+}
