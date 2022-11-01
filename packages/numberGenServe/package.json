@@ -1,22 +1,5 @@
 {
-  "name": "numbergenserve",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "prebuild": "eslint . --ext .ts",
-    "build": "tsc --build",
-    "prestart": "npm run build",
-    "start": "node ./app/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "typescript": "^4.8.4"
-  }
+  "name": "@myorg/numbergenserve",
+  "version": "0.0.1",
+  "type": "commonjs"
 }
